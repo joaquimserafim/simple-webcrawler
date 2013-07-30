@@ -18,6 +18,6 @@ exports.level = {
  * format log output
  * export
  */
-exports.log = function (app, level, log) {// Sat, 20 Oct 2012 16:12:08 GMT
+exports.log = function(app, level, log) {// Sat, 20 Oct 2012 16:12:08 GMT
 	console.log("%s GMT - [%s] - %s: %s", moment.utc().format('YYYY-MM-DD HH:mm:ss:SSS'), app, level, log);// stdout
 };
